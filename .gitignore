@@ -7,8 +7,26 @@ output_dir
 ultralytics.egg-info
 docs
 examples
-# C extensions
-*.so
+
+# Dataset folders
+dataset/
+datasetyolo/
+rangkuman/
+
+# Backup files
+*.backup
+
+# VS Code / IDE files
+.vscode/
+
+# Selective scan / build files
+selective_scan/
+*_selective_scan
+=*
+
+# CUDA/Runtime files
+cuda_*.run
+*.run
 
 # Distribution / packaging
 .Python
